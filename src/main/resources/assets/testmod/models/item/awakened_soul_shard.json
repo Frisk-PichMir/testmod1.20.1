@@ -1,0 +1,7 @@
+{
+  "parent": "testmod:item/awakened_soul_shard_model",
+  "textures": {
+    "layer0": "testmod:item/awakened_soul_shard_inner",
+    "layer1": "testmod:item/awakened_soul_shard_outer"
+  }
+}

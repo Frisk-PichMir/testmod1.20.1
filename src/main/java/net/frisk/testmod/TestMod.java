@@ -1,6 +1,7 @@
 package net.frisk.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.frisk.testmod.item.ModCreativeModeTabs;
 import net.frisk.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,8 @@ public class TestMod
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
 
@@ -51,6 +54,8 @@ public class TestMod
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.AWAKENED_SOUL_SHARD);
+            event.accept(ModItems.DORMANT_SOUL_SHARD);
+            event.accept(ModItems.ASCENDED_SOUL_SHARD);
         }
     }
     {

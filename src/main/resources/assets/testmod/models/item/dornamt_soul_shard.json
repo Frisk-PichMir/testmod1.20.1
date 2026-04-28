@@ -1,0 +1,6 @@
+{
+  "parent": "testmod:item/dormant_soul_shard",
+  "textures": {
+    "layer0": "testmod:item/dormant_soul_shard"
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "item.testmod.awakened_soul_shard": "Awakened Soul Shard"
+  "item.testmod.awakened_soul_shard": "Awakened Soul Shard",
+  "item.testmod.dormant_soul_shard": "Dormant Soul Shard",
+  "item.testmod.ascended_soul_shard": "Ascended Soul Shard",
+
+  "creative.test_tab": "Shadow Slave Tab"
 }
